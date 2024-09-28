@@ -1,4 +1,4 @@
-const mysql = require('mysql'); // Jika kamu menggunakan mysql v1
+const mysql = require('mysql2'); // Jika kamu menggunakan mysql v1
 // Jika kamu menggunakan mysql2 (versi lebih baru), gunakan:
 // const mysql = require('mysql2');
 
