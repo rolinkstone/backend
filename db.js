@@ -1,7 +1,7 @@
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'http://202.10.41.174:5000',
     user: 'root',
     password: 'ontageniT1!',
     database: 'crud_db'
