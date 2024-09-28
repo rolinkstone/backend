@@ -3,7 +3,7 @@ const mysql = require('mysql2'); // Jika kamu menggunakan mysql v1
 // const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-    host: 'localhost',      // IP VPS atau server MySQL
+    host: '202.10.41.174',      // IP VPS atau server MySQL
     user: 'root',               // Username MySQL
     password: 'ontageniT1!',     // Password MySQL
     database: 'crud_db',         // Nama database yang digunakan
