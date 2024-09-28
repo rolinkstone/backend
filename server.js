@@ -37,7 +37,7 @@ app.use('/api/sales', salesRoutes);
 // User Login
 
 // User Login
-app.post('http://202.10.41.174:5000/api/login', (req, res) => {
+app.post('/api/login', (req, res) => {
     const { username, password } = req.body;
 
     db.query('SELECT * FROM user WHERE username = ?', [username], (err, results) => {
